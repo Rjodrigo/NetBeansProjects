@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="helloworldjavafx.FXMLDocumentController">
+   <children>
+      <Button layoutX="43.0" layoutY="90.0" mnemonicParsing="false" onAction="#clicouBotao" text="Click Here !!!">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblMensagem" layoutX="63.0" layoutY="30.0" text="Nota do Dia!!!" textFill="#e40000">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
